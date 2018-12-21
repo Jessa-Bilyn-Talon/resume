@@ -1,0 +1,135 @@
+body {
+	text-align: left;
+} 
+
+#menu{
+	margin: 0px 0px 0px 80px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid ;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.button1 {
+	background-image: url(../images/1.png);
+	background-size: 50px 50px;
+	padding: 0px 5px;
+	display: inline-block;
+	color: black;		
+	width: 200px;
+	height: 100px;
+	background-repeat:no-repeat;
+}
+
+.button1:hover {
+	background: white;
+}
+
+.button2 {
+		background-image:url(../images/2.png);
+		background-size: 50px 50px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		background-repeat:no-repeat;
+}
+
+.button2:hover {
+	background: white;
+}
+
+.button3 {
+		background-image:url(../images/3.jpeg);
+		background-size: 50px 50px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		background-repeat:no-repeat;
+}
+
+.button3:hover {
+	background: white;
+}
+
+.button4 {
+		background-image:url(../images/4.jpeg);
+		background-size: 50px 50px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		background-repeat:no-repeat;
+}
+
+.button4:hover {
+	background: white;
+}
+
+
+.button5 {
+		background-image:url(../images/5.png);
+		background-size: 50px 50px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		background-repeat:no-repeat;
+}
+
+.button5:hover {
+	background: white;
+}
+
+.button6 {
+		background-image:url(../images/6.jpeg);
+		background-size: 50px 50px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		background-repeat:no-repeat;
+}
+
+.button6:hover {
+	background: white;
+}
+
+.main-article {
+	display: grid;
+	padding: 0px 70px;
+	margin: 20px 180px;
+	grid-gap: 0px;
+	grid-template-columns: 1fr 1fr;
+}
+
+#title {
+	background-color: #808080;
+}
+
+#details {
+	background-color: #E8E8E8;
+}
+
+.container >div {
+	border: 2px solid black;
+	margin: 1px;
+	padding: 5px;
+}
+
+
+h1 {
+	background-color: #909090;
+}
+
+h3 {
+	background-color: #EDEDED;
+}
